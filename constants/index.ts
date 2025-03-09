@@ -43,7 +43,7 @@ export const LINKS = [
 export const EXTRA_LINKS = {
   linkedin: "https://www.linkedin.com/in/zaroon-kaleem-a53006263/",
   github: "https://github.com/ZaroonKaleem",
-  resume: "/resume.pdf",
+  resume: "/Zaroon.pdf",
   source_code: "https://github.com/sanidhyy/portfolio",
   email: "zaroonklm@gmail.com",
 } as const;
