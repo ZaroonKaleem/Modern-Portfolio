@@ -72,7 +72,7 @@ const Intro = () => {
         I&apos;m a <b className="font-bold">full-stack developer</b> with{" "}
         <b className="font-bold">2+ years</b> of experience. I enjoy building{" "}
         <i className="italic">sites and apps</i>. My focus is{" "}
-        <u className="underline">Angular & .NET</u>.
+        <b className="font-bold">Angular</b>.
       </motion.h1>
 
       <motion.div

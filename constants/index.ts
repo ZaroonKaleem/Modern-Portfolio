@@ -10,6 +10,9 @@ import axioneImg from "@/public/axione.png";
 import mcrgImg from "@/public/mcrg.png";
 import v2visionsImg from "@/public/v2visions.png";
 import sternizImg from "@/public/sterniz.png"
+import skylightImg from "@/public/skylight.png"
+import zipboxImg from "@/public/zipbox.png"
+import sternizPortfolioImg from "@/public/sternizPortfolio.png"
 
 // Navigation links
 export const LINKS = [
@@ -129,6 +132,30 @@ export const PROJECTS_DATA = [
     tags: ["Angular", "Tailwind CSS", "Material Icons", "Bootstrap"],
     imageUrl: v2visionsImg,
     projectUrl: "https://v2visions.com/",
+  },
+   {
+    title: "Skylight | KSA",
+    description:
+      "A premier portfolio showcasing Skylight KSA's excellence in bespoke glass solutions and expert general contracting services.",
+    tags: ["Angular", "Material Icons", "Tailwind CSS", "AOS"],
+    imageUrl: skylightImg,
+    projectUrl: "https://skylight-ksa-svkh.vercel.app/",
+  },
+     {
+    title: "ZipBox Cargo",
+    description:
+      "Delivering seamless cargo logistics solutions—where speed, reliability, and precision meet global supply chain excellence.",
+    tags: ["React", "Material UI", "Tailwind CSS", "Redux"],
+    imageUrl: zipboxImg,
+    projectUrl: "https://zipboxcargologistics.com/",
+  },
+     {
+    title: "Sterniz",
+    description:
+      "Advanced security solutions tailored to protect your people, assets, and peace of mind—where vigilance meets innovation.",
+    tags: ["React", "ThreeJS", "Tailwind CSS", "Redux", "i18next"],
+    imageUrl: sternizPortfolioImg,
+    projectUrl: "https://sterniz-3-d-5s8v.vercel.app/",
   },
 ] as const;
 
